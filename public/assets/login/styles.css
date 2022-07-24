@@ -1,0 +1,59 @@
+.fundo {
+    bottom: -300px;
+    left: -300px;
+    width: 900px;
+    height: 900px;
+    background-color: #e30059;
+    position: fixed;
+    border-radius: 1000px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo2 {
+    top: -300px;
+    right: -300px;
+    width: 1000px;
+    height: 1000px;
+    background-color: #00cfd5;
+    position: fixed;
+    border-radius: 2000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.5;
+
+
+}
+
+.imgBacground {
+    position: fixed;
+    /* background-image: url("../../assets/img/fundo3231.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.FundoBacground {
+    position: fixed;
+    background-color: black;
+    z-index: -9;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8
+}
+
+.imgDemo {
+    /* height: 40, position: "absolute", left: 0 */
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    opacity: 0.5;
+}
