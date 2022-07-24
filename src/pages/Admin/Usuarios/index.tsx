@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
-import Header from "../../components/header";
+import Header from "../../../components/header";
 import { FaUserEdit, FaPlus, FaRegEdit, FaRegTrashAlt } from 'react-icons/fa';
-import CardComponent from "../../components/cardComponent";
-import TableComponent from "../../components/tableComponent";
-import { ModalDialog } from "../../components/modal";
+import CardComponent from "../../../components/cardComponent";
+import TableComponent from "../../../components/tableComponent";
+import { ModalDialog } from "../../../components/modal";
 import Swal from "sweetalert2";
-import Loading from "../../components/loading";
-import { HCrudUser } from "../../hooks/Usuarios";
-import { IUser } from "../../types/User";
-import BtnGroup from "../../components/btnGroup";
+import Loading from "../../../components/loading";
+import { HCrudUser } from "../../../hooks/Usuarios";
+import { IUser } from "../../../types/User";
+import BtnGroup from "../../../components/btnGroup";
 import ModalUpdateUser from "./modalUpdate";
 
 

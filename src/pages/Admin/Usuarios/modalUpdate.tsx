@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { ModalDialog } from "../../components/modal";
-import { IUser } from "../../types/User";
-import { HCrudUser } from "../../hooks/Usuarios";
+import { ModalDialog } from "../../../components/modal";
+import { IUser } from "../../../types/User";
+import { HCrudUser } from "../../../hooks/Usuarios";
 import Swal from "sweetalert2";
 
 interface IModalEditUser {

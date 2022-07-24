@@ -90,8 +90,8 @@ export default function LayoutDefaut() {
                                 <div className="sidenav-menu-heading">Garçom</div>
 
                                 <NavegacaoSimples Icon={FaFileSignature} name="Fazer o Pedido" link="fazer_pedido" />
-                                <NavegacaoSimples Icon={FaUserFriends} name="Clientes" link="pedidos" />
-                                <NavegacaoSimples Icon={FaToriiGate} name="Mesas" link="pedidos" />
+                                <NavegacaoSimples Icon={FaUserFriends} name="Clientes" link="clientes" />
+                                <NavegacaoSimples Icon={FaToriiGate} name="Mesas" link="mesas" />
 
                                 <div className="sidenav-menu-heading">Cozinheiro</div>
                                 <NavegacaoSimples Icon={FaVoteYea} name="Pedidos" link="pedidos" />
